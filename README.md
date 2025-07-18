@@ -3,6 +3,8 @@ This is a sample project t demonstrate How Open AI capabilities can be used to d
 This project asks the user for a Transaction Id, looks up transaction details in DB, uses a vector representation of the refund policy and passes thee parametres to an Open AI model so it can determine if the refund can be processed or not.
 
 The project is made up of the following components
+
+
 a. A transaction database, which records payment transactions across different merchants. This includes standard details like, Transaction date, Amount, Status, Refund Status etc. The data\MockGenerator.py file generates 15K dummy records in a Json file. I have used Azure Data Factory to import them into an Azure SQl database
 
 
